@@ -1,17 +1,26 @@
-# chatbot
-
----
-
 ### Prerequisite
-- python 3.12.3
+- python 3.12.x
 - poetry
 
 ### Install
 - poetry プロジェクト作成（poetry init）
 ```
 poetry install
-poetry add openai load_dotenv
+poetry add load_dotenv
+poetry add langchain langchain_community langchain_openai
 poetry add googlesearch-python
+
+```
+
+###
+```shell
+poetry show | egrep '(langchain|openai)'     
+langchain                0.2.6    Building applications with LLMs through c...
+langchain-community      0.2.6    Community contributed LangChain integrati...
+langchain-core           0.2.11   Building applications with LLMs through c...
+langchain-text-splitters 0.2.2    LangChain text splitting utilities
+openai                   1.35.10  The official Python library for the opena...
+
 
 ```
 
@@ -31,3 +40,5 @@ poetry run python main.py
 # Sample1
 poetry run python sample/sample1_basic.py
 ```
+
+
