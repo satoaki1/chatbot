@@ -8,7 +8,7 @@
 poetry install
 poetry add load_dotenv
 poetry add langchain langchain_community langchain_openai
-poetry add googlesearch-python
+poetry add gradio
 
 ```
 
@@ -41,4 +41,8 @@ poetry run python main.py
 poetry run python sample/sample1_basic.py
 ```
 
+### chatgptサンプル実行（Gradioを利用したGUIでの会話）
+```shell
+poetry run python sample/sample5_langchain_history_gradio.py
+```
 
