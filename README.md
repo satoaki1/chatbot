@@ -41,7 +41,7 @@ poetry run python main.py
 poetry run python sample/sample1_basic.py
 ```
 
-### Langchainサンプル実行（Gradioを利用したGUIでの会話）
+### LangchainとOpenAIのサンプル実行（Gradioを利用したGUIでの会話）
 ```shell
 poetry run python sample/sample5_langchain_history_gradio.py
 ```
